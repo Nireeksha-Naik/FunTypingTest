@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>⌨️ Typing Speed Test</h1>
+    <p id="quote">Click "Start" to begin!</p>
+    <textarea id="inputArea" placeholder="Start typing here..." disabled></textarea>
+    <div class="stats">
+      <p>⏱ Time Left: <span id="time">30</span>s</p>
+      <p>⚡ Speed: <span id="wpm">0</span> WPM</p>
+      <p>✅ Accuracy: <span id="accuracy">100</span>%</p>
+    </div>
+    <button onclick="startGame()">Start</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
